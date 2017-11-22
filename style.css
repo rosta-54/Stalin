@@ -248,3 +248,20 @@ border:  1px solid blue;
     line-height: 6;
     color: #0f3777;
 }
+
+.photo-used-by {
+   display: inline-block;
+
+ width: 100%;
+    text-align: center;
+}
+.photo-line {
+
+    display: inline-block;
+
+}
+.points {
+    width: 100%;
+    text-align: center;
+    line-height: 15;
+}
