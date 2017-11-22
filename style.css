@@ -265,3 +265,38 @@ border:  1px solid blue;
     text-align: center;
     line-height: 15;
 }
+
+/* photo collage */
+
+
+.photo-collage {
+    background: url("img/man.png");
+    height: 900px;
+    width: 100%;
+    padding-top: 100px;
+}
+
+
+
+.text-with-collages {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+.photo-collage1 {
+
+    text-align: center;
+    width: 100%;
+    word-spacing: 5px;
+}
+
+.photo-collage2 {
+    width: 100%;
+    text-align: center;
+    word-spacing: 5px;
+    padding-top: 10px;
+}
+
+
