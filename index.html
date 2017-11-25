@@ -7,24 +7,25 @@
     <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
+
 </head>
+<body>
 <header>
     <div class="top">
         <div class="text-with-top"> THIS IS  WHERE THE PROMO BAR WILL APPEAR</div>
     </div>
 
 
-    <div class="menu-block">
 
-        <div class="mobile-menu">
+        <div class="block navigation clearfix">
 
                   <nav>
                       <div class="usa_nosweat">
                           <div class="usa"><img src="img/usa.png" alt="img" class="usa"/></div>
                           <div class="nosweat"><img src="img/nosweat.png" alt="img" class="nosweat"/></div>
                       </div>
-                      <div class="navigation">
-                          <ul>
+                      <div class="mobile-menu"> <i class="fa fa-bars" aria-hidden="true"></i></div>
+                          <ul id="menu">
                         <li class="current"><a href="#">HOME</a></li>
                         <li class="current"><a href="#">ABOUT US</a></li>
                         <li class="current"><a href="#">HOW IT WORKS</a></li>
@@ -32,10 +33,10 @@
                           <li class="current"><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
                     </ul>
 
-                      </div>
+
                 </nav>
         </div>
-    </div>
+
       <div class="text">
               <h1>SWEAT ABSORBING</h1>
               <h2>DISPOSABLE HAT AND HELMET LINERS</h2>
@@ -46,19 +47,16 @@
     <div class="photo"><img src="img/tech_features.png" alt="img" class="photo1"/></div>
 </div>
 
-    <div class="performance">
-
-        <div class="perf">
-            <ul>
-                <li>PERFORMANCE</li>
-                <li>SAFETY</li>
-                <li>HYGIENE </li>
-            </ul>
-        </div>
+    <div class="perform">
+        <ul>
+            <li class="three_photos"><img src="img/speed.png" alt="img" class="logo"><span>PERFORMANCE</span></li>
+            <li class="three_photos"><img src="img/plus.png" alt="img" align="center" class="logo"><span>SAFETY</span></li>
+            <li class="three_photos"><img src="img/drops.png" alt="img" align="center" class="logo"><span>HYGIENE</span></li>
+        </ul>
     </div>
 
 </header>
-
+<main>
 <div class="video-block">
     <div class="text-section">
      <ul class="text-with-section">
@@ -95,11 +93,11 @@
   <div class="used-by">
       <div><p class="used">USED BY THE PROS</p></div>
 <div class="photo-used-by">
-    <div class="photo-line"> <img src="img/awads.png" /></div>
-    <div class="photo-line"> <img src="img/aema.png" /></div>
-        <div class="photo-line"><img src="img/the4.png" /></div>
-        <div class="photo-line"><img src="img/lacrosse.png" /></div>
-            <div class="photo-line"><img src="img/hocky.png" /></div>
+    <div class="photo-line"> <img src="img/awads.png" class="photo-line1" /></div>
+    <div class="photo-line"> <img src="img/aema.png" class="photo-line1"  /></div>
+        <div class="photo-line"><img src="img/the4.png"class="photo-line1"  /></div>
+        <div class="photo-line"><img src="img/lacrosse.png" class="photo-line1" /></div>
+            <div class="photo-line"><img src="img/hocky.png" class="photo-line1" /></div>
             </div>
       <div class="points">
 
@@ -115,43 +113,45 @@
 
 
         <div class="photo-collages">
+            <div class="ins"> <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a></div>
             <div class="text-with-collages">#NOSWEATCO</div>
         <div class="photo-collage1">
-            <img  src="img/img1.png" height="241" width="241" />
-           <img src="img/img2.png" height="241" width="241" />
-           <img src="img/img3.png" height="240" width="240" />
-        <img src="img/img4.png" height="240" width="240" />
+            <img  src="img/img1.png" height="241" width="241" class="photo-with-collage" />
+           <img src="img/img2.png" height="241" width="241" class="photo-with-collage"/>
+           <img src="img/img3.png" height="240" width="240" class="photo-with-collage"/>
+        <img src="img/img4.png" height="240" width="240" class="photo-with-collage"/>
         </div>
 
     <div class="photo-collage2">
 
-        <img  src="img/img5.png" height="241" width="241"/>
-        <img  src="img/img6.png" height="241" width="241"/>
-        <img  src="img/img7.png" height="240" width="240"/>
-        <img  src="img/img8.png" height="240" width="240"/>
+        <img  src="img/img5.png" height="241" width="241" class="photo-with-collage"/>
+        <img  src="img/img6.png" height="241" width="241" class="photo-with-collage"/>
+        <img  src="img/img7.png" height="240" width="240" class="photo-with-collage"/>
+        <img  src="img/img8.png" height="240" width="240" class="photo-with-collage"/>
     </div>
     </div>
 </div>
 
-<!--<div class="columns_3">
-    <div class="column_1">
-        <div class="two_photos"><img src="img/hat_liner.png" height="100" width="400" /></div>
-<div class="hat_liners" > <p>HAT LINERS </p></div>
-
-        <div class="buy_now"><p>BUY NOW</p></div>
+<div class="columns_3">
+    <div class="columns">
+        <img  src="img/photo1.png" width="100%"  class="columns_photos">
+        <span>HAT LINERS</span>
+        <h2> <a href="#">BUY NOW</a></h2>
     </div>
-
-
-    <div class="column_2">
-        <div class="two_photos2"><img src="img/helmet_liner.png" height="100" width="400"/></div>
-        <div class="helmet_liners"> HELMET LINERS</div>
-
-
+    <div class="columns">
+        <img src="img/photo2.png" width="100%" class="columns_photos" >
+        <span>HEMLET LINERS</span>
+        <h2><a href="#">BUY NOW</a></h2>
     </div>
-</div> -->
+    <div class="columns">
+        <img src="img/photo3.png" width="100%" class="columns_photos" >
+        <span>HARD HAT LINERS</span>
+        <h2><a href="#">BUY NOW</a></h2>
+    </div>
+</div>
 
 <div class="video-block2">
-    <video class="video2" controls="controls">
+    <video class="video2" controls="controls" poster="img/videoimg.png" >
         <source src="video2.mp4"  type="video/mp4" >
 
     </video></div>
@@ -160,11 +160,11 @@
     <div class="featured_in">
         <div><p class="featured">WE'VE BEEN FEATURED IN</p></div>
         <div class="photo-used-by">
-            <div class="photo-line"> <img src="img/awads.png" /></div>
-            <div class="photo-line"> <img src="img/aema.png" /></div>
-            <div class="photo-line"><img src="img/the4.png" /></div>
-            <div class="photo-line"><img src="img/lacrosse.png" /></div>
-            <div class="photo-line"><img src="img/hocky.png" /></div>
+            <div class="photo-line"> <img src="img/awads.png" class="photo-line1" /></div>
+            <div class="photo-line"> <img src="img/aema.png" class="photo-line1"/></div>
+            <div class="photo-line"><img src="img/the4.png" class="photo-line1"/></div>
+            <div class="photo-line"><img src="img/lacrosse.png"class="photo-line1" /></div>
+            <div class="photo-line"><img src="img/hocky.png" class="photo-line1"  /></div>
         </div>
         <div class="points">
 
@@ -176,8 +176,59 @@
         </div>
     </div>
 
+    <div class="down">
+<div class="stay_in_the_loop">
+        <div class="stay"><p class="loop">STAY IN THE LOOP</p>
+            <p class="Get" > Get discounts straight to your inbox. </p>
+            <div class="plane"> <input/> <i class="fa fa-paper-plane" aria-hidden="true"></i></div>
+        </div>
+
+        <div class="about_us"> <p class="about">About us</p>
+            <p class="become">Become an Affiliate</p>
+            <p class="retail">Retail Sales Inquiries</p>
+            <p class="blog">Blog</p>
+            <p class="terms">Terms & Privacy Policy</p>
+
 
 </div>
+</div>
+<div class="contact-block">
+    <p class="contact">CONTACT INFORMATION</p>
+    <p class="text-with-contact">if you have any questions about our products, or you want to follow up on your existing order<br/>
+    status, please contact us via the following</p>
+
+
+            <ul>
+            <li class="location">LOCATION
+            <li class="address"> 5421 Feltl Rd, Suite 160, Minnetonka, MN 55343</li>
+            </ul>
+<ul>
+            <li class="phone1">PHONE</li>
+            <li class="numbers">1  (615) 697-9328</li>
+
+</ul>
+            <ul>
+            <li class="email1">EMAIL</li>
+            <li class="email2">info@NoSweatC</li>
+        </ul>
+
+
+
+
+
+</div>
+
+        <div class="subtitle">
+            <div class="right">
+                <span class="all">©2016 NoSweat. All Rights Reserved. - Patented. Other Patents Pending.</span>
+                <span class="icons"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="#"><i class="fa fa-instagram" aria-hidden="true" ></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true" ></i></a></span></div>
+        </div>
+    </div>
+
+
+
 </footer>
 </body>
 </html>
